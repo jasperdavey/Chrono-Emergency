@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PebbleEmergencyApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>64BB7F1A1CAF7EDA00A7A795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64BB7F331CAF7EDB00A7A795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64BB7F3E1CAF7EDB00A7A795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
