@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		645E8B5C1CB0FB3A00EC033C /* AccelerometerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E8B5B1CB0FB3A00EC033C /* AccelerometerController.swift */; };
+		645E8B5E1CB1297800EC033C /* dangerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645E8B5D1CB1297800EC033C /* dangerController.swift */; };
 		64BB7F201CAF7EDB00A7A795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F1F1CAF7EDB00A7A795 /* main.m */; };
 		64BB7F231CAF7EDB00A7A795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F221CAF7EDB00A7A795 /* AppDelegate.m */; };
-		64BB7F261CAF7EDB00A7A795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F251CAF7EDB00A7A795 /* ViewController.m */; };
 		64BB7F291CAF7EDB00A7A795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BB7F271CAF7EDB00A7A795 /* Main.storyboard */; };
 		64BB7F2B1CAF7EDB00A7A795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BB7F2A1CAF7EDB00A7A795 /* Assets.xcassets */; };
 		64BB7F2E1CAF7EDB00A7A795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BB7F2C1CAF7EDB00A7A795 /* LaunchScreen.storyboard */; };
 		64BB7F391CAF7EDB00A7A795 /* PebbleEmergencyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F381CAF7EDB00A7A795 /* PebbleEmergencyAppTests.m */; };
 		64BB7F441CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F431CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.m */; };
+		64BB7F531CAF812A00A7A795 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F521CAF812A00A7A795 /* LandingViewController.m */; };
+		64BB7F561CAF894900A7A795 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F551CAF894900A7A795 /* SignupViewController.m */; };
+		64BB7F5B1CAF8C8A00A7A795 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F591CAF8C8A00A7A795 /* LoginViewController.m */; };
+		64BB7F5F1CAF8F3000A7A795 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F5E1CAF8F3000A7A795 /* DashboardViewController.m */; };
+		64BB7F621CAF8FF400A7A795 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F611CAF8FF400A7A795 /* ContactsViewController.m */; };
+		64BB7F641CAFFC8B00A7A795 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BB7F631CAFFC8B00A7A795 /* CustomCell.xib */; };
+		64BB7F6A1CAFFE4B00A7A795 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F691CAFFE4B00A7A795 /* CustomCell.m */; };
+		64BB7F6D1CB0093700A7A795 /* CustomContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BB7F6C1CB0093700A7A795 /* CustomContactCell.m */; };
+		64BB7F6F1CB0095600A7A795 /* CustomContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64BB7F6E1CB0095600A7A795 /* CustomContactCell.xib */; };
+		64CD68E31CB08CFB0022B2F1 /* AddContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD68E21CB08CFB0022B2F1 /* AddContactViewController.m */; };
+		64CD68E71CB091710022B2F1 /* PEDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD68E61CB091710022B2F1 /* PEDatabase.m */; };
+		64CD68EB1CB0918D0022B2F1 /* PEUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD68EA1CB0918D0022B2F1 /* PEUser.m */; };
+		64CD68EF1CB097960022B2F1 /* PEFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CD68EE1CB097960022B2F1 /* PEFileManager.m */; };
+		64CDFAF71CB0505700C802AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CDFAF51CB0505700C802AF /* Interface.storyboard */; };
+		64CDFAF91CB0505700C802AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CDFAF81CB0505700C802AF /* Assets.xcassets */; };
+		64CDFB001CB0505700C802AF /* EmergencyWatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 64CDFAFF1CB0505700C802AF /* EmergencyWatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64CDFB081CB0505700C802AF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDFB071CB0505700C802AF /* InterfaceController.m */; };
+		64CDFB0B1CB0505700C802AF /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDFB0A1CB0505700C802AF /* ExtensionDelegate.m */; };
+		64CDFB0E1CB0505700C802AF /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CDFB0D1CB0505700C802AF /* NotificationController.m */; };
+		64CDFB101CB0505700C802AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CDFB0F1CB0505700C802AF /* Assets.xcassets */; };
+		64CDFB141CB0505700C802AF /* EmergencyWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 64CDFAF31CB0505700C802AF /* EmergencyWatchApp.app */; };
+		DB6E1B034C8AC30B4A28B643 /* libPods-PebbleEmergencyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DE4C97519E5E1FE89478B7 /* libPods-PebbleEmergencyApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +55,56 @@
 			remoteGlobalIDString = 64BB7F1A1CAF7EDA00A7A795;
 			remoteInfo = PebbleEmergencyApp;
 		};
+		64CDFB011CB0505700C802AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BB7F131CAF7EDA00A7A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CDFAFE1CB0505700C802AF;
+			remoteInfo = "EmergencyWatchApp Extension";
+		};
+		64CDFB121CB0505700C802AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BB7F131CAF7EDA00A7A795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CDFAF21CB0505700C802AF;
+			remoteInfo = EmergencyWatchApp;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		64CDFB181CB0505700C802AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				64CDFB001CB0505700C802AF /* EmergencyWatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CDFB1C1CB0505700C802AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				64CDFB141CB0505700C802AF /* EmergencyWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		20FAE7FE8333902553758909 /* Pods-PebbleEmergencyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleEmergencyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleEmergencyApp/Pods-PebbleEmergencyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		645E8B5A1CB0FB3A00EC033C /* EmergencyWatchApp Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmergencyWatchApp Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		645E8B5B1CB0FB3A00EC033C /* AccelerometerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerController.swift; sourceTree = "<group>"; };
+		645E8B5D1CB1297800EC033C /* dangerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dangerController.swift; sourceTree = "<group>"; };
 		64BB7F1B1CAF7EDB00A7A795 /* PebbleEmergencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleEmergencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB7F1F1CAF7EDB00A7A795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64BB7F211CAF7EDB00A7A795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64BB7F221CAF7EDB00A7A795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64BB7F241CAF7EDB00A7A795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64BB7F251CAF7EDB00A7A795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64BB7F281CAF7EDB00A7A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64BB7F2A1CAF7EDB00A7A795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64BB7F2D1CAF7EDB00A7A795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +115,47 @@
 		64BB7F3F1CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleEmergencyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BB7F431CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PebbleEmergencyAppUITests.m; sourceTree = "<group>"; };
 		64BB7F451CAF7EDB00A7A795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BB7F511CAF812A00A7A795 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		64BB7F521CAF812A00A7A795 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		64BB7F541CAF894900A7A795 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		64BB7F551CAF894900A7A795 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		64BB7F581CAF8C8A00A7A795 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		64BB7F591CAF8C8A00A7A795 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		64BB7F5D1CAF8F3000A7A795 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		64BB7F5E1CAF8F3000A7A795 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		64BB7F601CAF8FF400A7A795 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		64BB7F611CAF8FF400A7A795 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		64BB7F631CAFFC8B00A7A795 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		64BB7F681CAFFE4B00A7A795 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		64BB7F691CAFFE4B00A7A795 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		64BB7F6B1CB0093700A7A795 /* CustomContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomContactCell.h; sourceTree = "<group>"; };
+		64BB7F6C1CB0093700A7A795 /* CustomContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomContactCell.m; sourceTree = "<group>"; };
+		64BB7F6E1CB0095600A7A795 /* CustomContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomContactCell.xib; sourceTree = "<group>"; };
+		64CD68E11CB08CFB0022B2F1 /* AddContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContactViewController.h; sourceTree = "<group>"; };
+		64CD68E21CB08CFB0022B2F1 /* AddContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContactViewController.m; sourceTree = "<group>"; };
+		64CD68E51CB091710022B2F1 /* PEDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEDatabase.h; sourceTree = "<group>"; };
+		64CD68E61CB091710022B2F1 /* PEDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEDatabase.m; sourceTree = "<group>"; };
+		64CD68E91CB0918D0022B2F1 /* PEUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEUser.h; sourceTree = "<group>"; };
+		64CD68EA1CB0918D0022B2F1 /* PEUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEUser.m; sourceTree = "<group>"; };
+		64CD68ED1CB097960022B2F1 /* PEFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEFileManager.h; sourceTree = "<group>"; };
+		64CD68EE1CB097960022B2F1 /* PEFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEFileManager.m; sourceTree = "<group>"; };
+		64CD68F01CB0993A0022B2F1 /* SSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSConstants.h; sourceTree = "<group>"; };
+		64CDFAF31CB0505700C802AF /* EmergencyWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmergencyWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CDFAF61CB0505700C802AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		64CDFAF81CB0505700C802AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CDFAFA1CB0505700C802AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CDFAFF1CB0505700C802AF /* EmergencyWatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EmergencyWatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CDFB051CB0505700C802AF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		64CDFB061CB0505700C802AF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		64CDFB071CB0505700C802AF /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		64CDFB091CB0505700C802AF /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		64CDFB0A1CB0505700C802AF /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		64CDFB0C1CB0505700C802AF /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		64CDFB0D1CB0505700C802AF /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		64CDFB0F1CB0505700C802AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CDFB111CB0505700C802AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DE4C97519E5E1FE89478B7 /* libPods-PebbleEmergencyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PebbleEmergencyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62A4FC400553061144C9BC3 /* Pods-PebbleEmergencyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleEmergencyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleEmergencyApp/Pods-PebbleEmergencyApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6E1B034C8AC30B4A28B643 /* libPods-PebbleEmergencyApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +181,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64CDFAFC1CB0505700C802AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,7 +197,11 @@
 				64BB7F1D1CAF7EDB00A7A795 /* PebbleEmergencyApp */,
 				64BB7F371CAF7EDB00A7A795 /* PebbleEmergencyAppTests */,
 				64BB7F421CAF7EDB00A7A795 /* PebbleEmergencyAppUITests */,
+				64CDFAF41CB0505700C802AF /* EmergencyWatchApp */,
+				64CDFB031CB0505700C802AF /* EmergencyWatchApp Extension */,
 				64BB7F1C1CAF7EDB00A7A795 /* Products */,
+				EA08FCF84AD53806DBE6272F /* Pods */,
+				6C05B0C7150BA173EE4CBBC3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +211,8 @@
 				64BB7F1B1CAF7EDB00A7A795 /* PebbleEmergencyApp.app */,
 				64BB7F341CAF7EDB00A7A795 /* PebbleEmergencyAppTests.xctest */,
 				64BB7F3F1CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.xctest */,
+				64CDFAF31CB0505700C802AF /* EmergencyWatchApp.app */,
+				64CDFAFF1CB0505700C802AF /* EmergencyWatchApp Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +220,11 @@
 		64BB7F1D1CAF7EDB00A7A795 /* PebbleEmergencyApp */ = {
 			isa = PBXGroup;
 			children = (
+				64CD68EC1CB097850022B2F1 /* PEFIleManager */,
+				64CD68E41CB091460022B2F1 /* PEDatabase */,
+				64BB7F571CAF8C6900A7A795 /* ViewControllers */,
 				64BB7F211CAF7EDB00A7A795 /* AppDelegate.h */,
 				64BB7F221CAF7EDB00A7A795 /* AppDelegate.m */,
-				64BB7F241CAF7EDB00A7A795 /* ViewController.h */,
-				64BB7F251CAF7EDB00A7A795 /* ViewController.m */,
 				64BB7F271CAF7EDB00A7A795 /* Main.storyboard */,
 				64BB7F2A1CAF7EDB00A7A795 /* Assets.xcassets */,
 				64BB7F2C1CAF7EDB00A7A795 /* LaunchScreen.storyboard */,
@@ -140,6 +260,114 @@
 			path = PebbleEmergencyAppUITests;
 			sourceTree = "<group>";
 		};
+		64BB7F571CAF8C6900A7A795 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64BB7F511CAF812A00A7A795 /* LandingViewController.h */,
+				64BB7F521CAF812A00A7A795 /* LandingViewController.m */,
+				64BB7F541CAF894900A7A795 /* SignupViewController.h */,
+				64BB7F551CAF894900A7A795 /* SignupViewController.m */,
+				64BB7F581CAF8C8A00A7A795 /* LoginViewController.h */,
+				64BB7F591CAF8C8A00A7A795 /* LoginViewController.m */,
+				64BB7F5D1CAF8F3000A7A795 /* DashboardViewController.h */,
+				64BB7F5E1CAF8F3000A7A795 /* DashboardViewController.m */,
+				64BB7F601CAF8FF400A7A795 /* ContactsViewController.h */,
+				64BB7F611CAF8FF400A7A795 /* ContactsViewController.m */,
+				64BB7F631CAFFC8B00A7A795 /* CustomCell.xib */,
+				64BB7F681CAFFE4B00A7A795 /* CustomCell.h */,
+				64BB7F691CAFFE4B00A7A795 /* CustomCell.m */,
+				64BB7F6B1CB0093700A7A795 /* CustomContactCell.h */,
+				64BB7F6C1CB0093700A7A795 /* CustomContactCell.m */,
+				64BB7F6E1CB0095600A7A795 /* CustomContactCell.xib */,
+				64CD68E11CB08CFB0022B2F1 /* AddContactViewController.h */,
+				64CD68E21CB08CFB0022B2F1 /* AddContactViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64CD68E41CB091460022B2F1 /* PEDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				64CD68E81CB0917B0022B2F1 /* Constants */,
+				64CD68E51CB091710022B2F1 /* PEDatabase.h */,
+				64CD68E61CB091710022B2F1 /* PEDatabase.m */,
+			);
+			name = PEDatabase;
+			sourceTree = "<group>";
+		};
+		64CD68E81CB0917B0022B2F1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				64CD68E91CB0918D0022B2F1 /* PEUser.h */,
+				64CD68EA1CB0918D0022B2F1 /* PEUser.m */,
+				64CD68F01CB0993A0022B2F1 /* SSConstants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		64CD68EC1CB097850022B2F1 /* PEFIleManager */ = {
+			isa = PBXGroup;
+			children = (
+				64CD68ED1CB097960022B2F1 /* PEFileManager.h */,
+				64CD68EE1CB097960022B2F1 /* PEFileManager.m */,
+			);
+			name = PEFIleManager;
+			sourceTree = "<group>";
+		};
+		64CDFAF41CB0505700C802AF /* EmergencyWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				64CDFAF51CB0505700C802AF /* Interface.storyboard */,
+				64CDFAF81CB0505700C802AF /* Assets.xcassets */,
+				64CDFAFA1CB0505700C802AF /* Info.plist */,
+			);
+			path = EmergencyWatchApp;
+			sourceTree = "<group>";
+		};
+		64CDFB031CB0505700C802AF /* EmergencyWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				64CDFB061CB0505700C802AF /* InterfaceController.h */,
+				64CDFB071CB0505700C802AF /* InterfaceController.m */,
+				64CDFB091CB0505700C802AF /* ExtensionDelegate.h */,
+				64CDFB0A1CB0505700C802AF /* ExtensionDelegate.m */,
+				64CDFB0C1CB0505700C802AF /* NotificationController.h */,
+				64CDFB0D1CB0505700C802AF /* NotificationController.m */,
+				64CDFB0F1CB0505700C802AF /* Assets.xcassets */,
+				64CDFB111CB0505700C802AF /* Info.plist */,
+				64CDFB041CB0505700C802AF /* Supporting Files */,
+				645E8B5B1CB0FB3A00EC033C /* AccelerometerController.swift */,
+				645E8B5A1CB0FB3A00EC033C /* EmergencyWatchApp Extension-Bridging-Header.h */,
+				645E8B5D1CB1297800EC033C /* dangerController.swift */,
+			);
+			path = "EmergencyWatchApp Extension";
+			sourceTree = "<group>";
+		};
+		64CDFB041CB0505700C802AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CDFB051CB0505700C802AF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C05B0C7150BA173EE4CBBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6DE4C97519E5E1FE89478B7 /* libPods-PebbleEmergencyApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA08FCF84AD53806DBE6272F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20FAE7FE8333902553758909 /* Pods-PebbleEmergencyApp.debug.xcconfig */,
+				F62A4FC400553061144C9BC3 /* Pods-PebbleEmergencyApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,13 +375,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64BB7F481CAF7EDB00A7A795 /* Build configuration list for PBXNativeTarget "PebbleEmergencyApp" */;
 			buildPhases = (
+				0269FF326D0AE816040A249D /* Check Pods Manifest.lock */,
 				64BB7F171CAF7EDA00A7A795 /* Sources */,
 				64BB7F181CAF7EDA00A7A795 /* Frameworks */,
 				64BB7F191CAF7EDA00A7A795 /* Resources */,
+				F165A2BAA73E16557C80B37D /* Embed Pods Frameworks */,
+				4C941F004675781F25FA11A4 /* Copy Pods Resources */,
+				64CDFB1C1CB0505700C802AF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				64CDFB131CB0505700C802AF /* PBXTargetDependency */,
 			);
 			name = PebbleEmergencyApp;
 			productName = PebbleEmergencyApp;
@@ -196,6 +429,40 @@
 			productReference = 64BB7F3F1CAF7EDB00A7A795 /* PebbleEmergencyAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		64CDFAF21CB0505700C802AF /* EmergencyWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CDFB191CB0505700C802AF /* Build configuration list for PBXNativeTarget "EmergencyWatchApp" */;
+			buildPhases = (
+				64CDFAF11CB0505700C802AF /* Resources */,
+				64CDFB181CB0505700C802AF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CDFB021CB0505700C802AF /* PBXTargetDependency */,
+			);
+			name = EmergencyWatchApp;
+			productName = EmergencyWatchApp;
+			productReference = 64CDFAF31CB0505700C802AF /* EmergencyWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		64CDFAFE1CB0505700C802AF /* EmergencyWatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CDFB151CB0505700C802AF /* Build configuration list for PBXNativeTarget "EmergencyWatchApp Extension" */;
+			buildPhases = (
+				64CDFAFB1CB0505700C802AF /* Sources */,
+				64CDFAFC1CB0505700C802AF /* Frameworks */,
+				64CDFAFD1CB0505700C802AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EmergencyWatchApp Extension";
+			productName = "EmergencyWatchApp Extension";
+			productReference = 64CDFAFF1CB0505700C802AF /* EmergencyWatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,6 +486,14 @@
 						DevelopmentTeam = 28V95WUXUL;
 						TestTargetID = 64BB7F1A1CAF7EDA00A7A795;
 					};
+					64CDFAF21CB0505700C802AF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28V95WUXUL;
+					};
+					64CDFAFE1CB0505700C802AF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 28V95WUXUL;
+					};
 				};
 			};
 			buildConfigurationList = 64BB7F161CAF7EDA00A7A795 /* Build configuration list for PBXProject "PebbleEmergencyApp" */;
@@ -237,6 +512,8 @@
 				64BB7F1A1CAF7EDA00A7A795 /* PebbleEmergencyApp */,
 				64BB7F331CAF7EDB00A7A795 /* PebbleEmergencyAppTests */,
 				64BB7F3E1CAF7EDB00A7A795 /* PebbleEmergencyAppUITests */,
+				64CDFAF21CB0505700C802AF /* EmergencyWatchApp */,
+				64CDFAFE1CB0505700C802AF /* EmergencyWatchApp Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +525,9 @@
 			files = (
 				64BB7F2E1CAF7EDB00A7A795 /* LaunchScreen.storyboard in Resources */,
 				64BB7F2B1CAF7EDB00A7A795 /* Assets.xcassets in Resources */,
+				64BB7F641CAFFC8B00A7A795 /* CustomCell.xib in Resources */,
 				64BB7F291CAF7EDB00A7A795 /* Main.storyboard in Resources */,
+				64BB7F6F1CB0095600A7A795 /* CustomContactCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +545,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64CDFAF11CB0505700C802AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CDFAF91CB0505700C802AF /* Assets.xcassets in Resources */,
+				64CDFAF71CB0505700C802AF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CDFAFD1CB0505700C802AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CDFB101CB0505700C802AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0269FF326D0AE816040A249D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C941F004675781F25FA11A4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleEmergencyApp/Pods-PebbleEmergencyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F165A2BAA73E16557C80B37D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleEmergencyApp/Pods-PebbleEmergencyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64BB7F171CAF7EDA00A7A795 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BB7F261CAF7EDB00A7A795 /* ViewController.m in Sources */,
 				64BB7F231CAF7EDB00A7A795 /* AppDelegate.m in Sources */,
+				64BB7F5F1CAF8F3000A7A795 /* DashboardViewController.m in Sources */,
+				64BB7F6A1CAFFE4B00A7A795 /* CustomCell.m in Sources */,
+				64CD68E31CB08CFB0022B2F1 /* AddContactViewController.m in Sources */,
+				64BB7F531CAF812A00A7A795 /* LandingViewController.m in Sources */,
+				64BB7F6D1CB0093700A7A795 /* CustomContactCell.m in Sources */,
+				64BB7F621CAF8FF400A7A795 /* ContactsViewController.m in Sources */,
+				64CD68EB1CB0918D0022B2F1 /* PEUser.m in Sources */,
+				64BB7F561CAF894900A7A795 /* SignupViewController.m in Sources */,
 				64BB7F201CAF7EDB00A7A795 /* main.m in Sources */,
+				64BB7F5B1CAF8C8A00A7A795 /* LoginViewController.m in Sources */,
+				64CD68E71CB091710022B2F1 /* PEDatabase.m in Sources */,
+				64CD68EF1CB097960022B2F1 /* PEFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +649,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64CDFAFB1CB0505700C802AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CDFB0B1CB0505700C802AF /* ExtensionDelegate.m in Sources */,
+				64CDFB081CB0505700C802AF /* InterfaceController.m in Sources */,
+				64CDFB0E1CB0505700C802AF /* NotificationController.m in Sources */,
+				645E8B5E1CB1297800EC033C /* dangerController.swift in Sources */,
+				645E8B5C1CB0FB3A00EC033C /* AccelerometerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -307,6 +673,16 @@
 			isa = PBXTargetDependency;
 			target = 64BB7F1A1CAF7EDA00A7A795 /* PebbleEmergencyApp */;
 			targetProxy = 64BB7F401CAF7EDB00A7A795 /* PBXContainerItemProxy */;
+		};
+		64CDFB021CB0505700C802AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CDFAFE1CB0505700C802AF /* EmergencyWatchApp Extension */;
+			targetProxy = 64CDFB011CB0505700C802AF /* PBXContainerItemProxy */;
+		};
+		64CDFB131CB0505700C802AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CDFAF21CB0505700C802AF /* EmergencyWatchApp */;
+			targetProxy = 64CDFB121CB0505700C802AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -325,6 +701,14 @@
 				64BB7F2D1CAF7EDB00A7A795 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64CDFAF51CB0505700C802AF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CDFAF61CB0505700C802AF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,9 +798,11 @@
 		};
 		64BB7F491CAF7EDB00A7A795 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FAE7FE8333902553758909 /* Pods-PebbleEmergencyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PebbleEmergencyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,9 +811,11 @@
 		};
 		64BB7F4A1CAF7EDB00A7A795 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62A4FC400553061144C9BC3 /* Pods-PebbleEmergencyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PebbleEmergencyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +868,73 @@
 			};
 			name = Release;
 		};
+		64CDFB161CB0505700C802AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "EmergencyWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmergencyWatchApp Extension/EmergencyWatchApp Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		64CDFB171CB0505700C802AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "EmergencyWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "EmergencyWatchApp Extension/EmergencyWatchApp Extension-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		64CDFB1A1CB0505700C802AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = EmergencyWatchApp_Extension;
+				INFOPLIST_FILE = EmergencyWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		64CDFB1B1CB0505700C802AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = EmergencyWatchApp_Extension;
+				INFOPLIST_FILE = EmergencyWatchApp/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasperdavey.PebbleEmergencyApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -499,6 +954,7 @@
 				64BB7F4A1CAF7EDB00A7A795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64BB7F4B1CAF7EDB00A7A795 /* Build configuration list for PBXNativeTarget "PebbleEmergencyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +963,7 @@
 				64BB7F4D1CAF7EDB00A7A795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64BB7F4E1CAF7EDB00A7A795 /* Build configuration list for PBXNativeTarget "PebbleEmergencyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +972,25 @@
 				64BB7F501CAF7EDB00A7A795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CDFB151CB0505700C802AF /* Build configuration list for PBXNativeTarget "EmergencyWatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CDFB161CB0505700C802AF /* Debug */,
+				64CDFB171CB0505700C802AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CDFB191CB0505700C802AF /* Build configuration list for PBXNativeTarget "EmergencyWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CDFB1A1CB0505700C802AF /* Debug */,
+				64CDFB1B1CB0505700C802AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

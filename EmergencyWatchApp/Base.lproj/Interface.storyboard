@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Onf-86-17f">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--home-->
+        <scene sceneID="cod-1y-uad">
+            <objects>
+                <controller identifier="home" id="Onf-86-17f" customClass="AccelerometerInterfaceController" customModule="EmergencyWatchApp_Extension">
+                    <items>
+                        <label width="136" height="34.5" alignment="left" text="Label" id="Hcf-zs-NWL"/>
+                        <label alignment="left" text="Label" id="m5e-p6-SnT"/>
+                        <imageView height="89" alignment="left" id="rdf-wf-qBe"/>
+                    </items>
+                    <connections>
+                        <outlet property="labelX" destination="Hcf-zs-NWL" id="5sA-2r-9r3"/>
+                        <outlet property="labelY" destination="m5e-p6-SnT" id="qXW-LK-9Zr"/>
+                        <outlet property="logo" destination="rdf-wf-qBe" id="ItD-wR-tGx"/>
+                        <segue destination="K28-eE-Xqd" kind="relationship" relationship="nextPage" id="Xf1-YS-gWx"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="288" y="502"/>
+        </scene>
+        <!--dangerController-->
+        <scene sceneID="frg-FZ-KHp">
+            <objects>
+                <controller identifier="dangerController" id="K28-eE-Xqd" customClass="dangerInterfaceController" customModule="EmergencyWatchApp_Extension">
+                    <items>
+                        <label width="136" height="36.5" alignment="left" text="Label" id="nhU-rd-v6u"/>
+                        <label width="136" alignment="left" text="Label" id="2Ml-OL-Dtb"/>
+                        <button width="1" alignment="left" title="Call for help" id="xg9-sg-wDX">
+                            <connections>
+                                <action selector="callForHelpPressed" destination="K28-eE-Xqd" id="u16-Ar-4Dr"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="I'm Okay" id="tT5-eO-Xub">
+                            <connections>
+                                <action selector="dismissDangerPressed" destination="K28-eE-Xqd" id="2Q6-vT-bcl"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="callForHelp" destination="xg9-sg-wDX" id="sBx-SX-kgL"/>
+                        <outlet property="dismissDanger" destination="tT5-eO-Xub" id="KkC-11-ARe"/>
+                        <outlet property="labelX" destination="nhU-rd-v6u" id="isd-E6-HGv"/>
+                        <outlet property="labelY" destination="2Ml-OL-Dtb" id="bgH-gP-9TF"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="577" y="499"/>
+        </scene>
+    </scenes>
+</document>

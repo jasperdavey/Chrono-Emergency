@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>EmergencyWatchApp (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>EmergencyWatchApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>PebbleEmergencyApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +33,11 @@
 			<true/>
 		</dict>
 		<key>64BB7F3E1CAF7EDB00A7A795</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64CDFAF21CB0505700C802AF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

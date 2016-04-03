@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <AWSCore/AWSCore.h>
+#import "PEDatabase.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIUserNotificationSettings *notificationSettings = [ UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeSound categories: nil ];
+    
+    [ application registerUserNotificationSettings: notificationSettings ];
+    
+    AWSCognitoCredentialsProvider *credentialsProvider = [ [ AWSCognitoCredentialsProvider alloc] initWithRegionType: AWSRegionUSEast1
+                                                                                                    identityPoolId: @"us-east-1:0242b084-2833-4377-a436-b8202e770b51" ];
+    
+    AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionUSEast1
+                                                                         credentialsProvider:credentialsProvider];
+    
+    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = configuration;
+    
     return YES;
 }
 

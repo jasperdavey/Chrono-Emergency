@@ -1,0 +1,664 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AccelerometerInterfaceController"
+provides-nominal:
+- "C27EmergencyWatchApp_Extension32AccelerometerInterfaceController"
+provides-member:
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", ""]
+provides-dynamic-lookup:
+- "labelX"
+- "coordinateAverage"
+- "motionManager"
+- "didDeactivate"
+- "labelY"
+- "awakeWithContext"
+- "willActivate"
+- "logo"
+depends-top-level:
+- "StringLiteralType"
+- !private "NSOperationQueue"
+- "AnyObject"
+- !private "Double"
+- !private "NSError"
+- "WKInterfaceLabel"
+- "NSMutableArray"
+- "WKInterfaceImage"
+- !private "print"
+- "CMMotionManager"
+- !private "abs"
+- !private ">"
+- !private "Void"
+- !private "Array"
+- !private "+="
+- !private "CMAccelerometerData"
+- !private "<"
+- !private "UIColor"
+- !private "CMAccelerometerHandler"
+- !private "+"
+- "AccelerometerInterfaceController"
+- "WKInterfaceController"
+- !private "-"
+- !private "/"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "AnyObject"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "CMAccelerometerData"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "CMAccelerometerHandler"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "CMMotionManager"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "Double"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "NSError"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "NSMutableArray"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "NSOperationQueue"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "UIColor"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "Void"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "WKInterfaceController"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "WKInterfaceImage"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "WKInterfaceLabel"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "abs"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "awakeWithContext"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "coordinateAverage"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "deinit"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "didDeactivate"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "init"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "labelX"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "labelY"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "logo"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "motionManager"]
+- !private ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "print"]
+- ["C27EmergencyWatchApp_Extension32AccelerometerInterfaceController", "willActivate"]
+- ["Ps9AnyObject", "CMMotionManager"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Element"]
+- !private ["Ps9AnyObject", "NSOperationQueue"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "WKInterfaceController"]
+- !private ["Ps9AnyObject", "abs"]
+- !private ["Ps9AnyObject", "acceleration"]
+- !private ["Ps9AnyObject", "accelerometerAvailable"]
+- !private ["Ps9AnyObject", "accelerometerUpdateInterval"]
+- !private ["Ps9AnyObject", "addObject"]
+- ["Ps9AnyObject", "awakeWithContext"]
+- ["Ps9AnyObject", "coordinateAverage"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "currentQueue"]
+- ["Ps9AnyObject", "didDeactivate"]
+- !private ["Ps9AnyObject", "doubleValue"]
+- !private ["Ps9AnyObject", "greenColor"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "labelX"]
+- ["Ps9AnyObject", "labelY"]
+- ["Ps9AnyObject", "logo"]
+- ["Ps9AnyObject", "motionManager"]
+- !private ["Ps9AnyObject", "objectAtIndex"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "redColor"]
+- !private ["Ps9AnyObject", "reloadRootControllersWithNames"]
+- !private ["Ps9AnyObject", "removeAllObjects"]
+- !private ["Ps9AnyObject", "setImageNamed"]
+- !private ["Ps9AnyObject", "setText"]
+- !private ["Ps9AnyObject", "setTextColor"]
+- !private ["Ps9AnyObject", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps9AnyObject", "stopAccelerometerUpdates"]
+- ["Ps9AnyObject", "willActivate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "addObject"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "objectAtIndex"]
+- !private ["Ps23ArrayLiteralConvertible", "removeAllObjects"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "Stride"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["VSC14CMAcceleration", "z"]
+- !private ["CSo19CMAccelerometerData", "acceleration"]
+- !private ["CSo9CMLogItem", "acceleration"]
+- !private ["CSo15CMMotionManager", "accelerometerAvailable"]
+- !private ["CSo15CMMotionManager", "accelerometerUpdateInterval"]
+- ["CSo15CMMotionManager", "init"]
+- !private ["CSo15CMMotionManager", "startAccelerometerUpdatesToQueue"]
+- !private ["CSo15CMMotionManager", "stopAccelerometerUpdates"]
+- ["Ps11CVarArgType", "CMMotionManager"]
+- !private ["Ps11CVarArgType", "Double"]
+- !private ["Ps11CVarArgType", "Element"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSOperationQueue"]
+- !private ["Ps11CVarArgType", "Stride"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "WKInterfaceController"]
+- !private ["Ps11CVarArgType", "abs"]
+- !private ["Ps11CVarArgType", "acceleration"]
+- !private ["Ps11CVarArgType", "accelerometerAvailable"]
+- !private ["Ps11CVarArgType", "accelerometerUpdateInterval"]
+- !private ["Ps11CVarArgType", "addObject"]
+- ["Ps11CVarArgType", "awakeWithContext"]
+- ["Ps11CVarArgType", "coordinateAverage"]
+- !private ["Ps11CVarArgType", "count"]
+- !private ["Ps11CVarArgType", "currentQueue"]
+- ["Ps11CVarArgType", "didDeactivate"]
+- !private ["Ps11CVarArgType", "greenColor"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "labelX"]
+- ["Ps11CVarArgType", "labelY"]
+- ["Ps11CVarArgType", "logo"]
+- ["Ps11CVarArgType", "motionManager"]
+- !private ["Ps11CVarArgType", "objectAtIndex"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "redColor"]
+- !private ["Ps11CVarArgType", "reloadRootControllersWithNames"]
+- !private ["Ps11CVarArgType", "removeAllObjects"]
+- !private ["Ps11CVarArgType", "setImageNamed"]
+- !private ["Ps11CVarArgType", "setText"]
+- !private ["Ps11CVarArgType", "setTextColor"]
+- !private ["Ps11CVarArgType", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps11CVarArgType", "stopAccelerometerUpdates"]
+- ["Ps11CVarArgType", "willActivate"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CMMotionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "NSOperationQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "WKInterfaceController"]
+- !private ["Ps28CustomDebugStringConvertible", "abs"]
+- !private ["Ps28CustomDebugStringConvertible", "acceleration"]
+- !private ["Ps28CustomDebugStringConvertible", "accelerometerAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "accelerometerUpdateInterval"]
+- !private ["Ps28CustomDebugStringConvertible", "addObject"]
+- ["Ps28CustomDebugStringConvertible", "awakeWithContext"]
+- ["Ps28CustomDebugStringConvertible", "coordinateAverage"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "currentQueue"]
+- ["Ps28CustomDebugStringConvertible", "didDeactivate"]
+- !private ["Ps28CustomDebugStringConvertible", "greenColor"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "labelX"]
+- ["Ps28CustomDebugStringConvertible", "labelY"]
+- ["Ps28CustomDebugStringConvertible", "logo"]
+- ["Ps28CustomDebugStringConvertible", "motionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "objectAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "redColor"]
+- !private ["Ps28CustomDebugStringConvertible", "reloadRootControllersWithNames"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "setImageNamed"]
+- !private ["Ps28CustomDebugStringConvertible", "setText"]
+- !private ["Ps28CustomDebugStringConvertible", "setTextColor"]
+- !private ["Ps28CustomDebugStringConvertible", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps28CustomDebugStringConvertible", "stopAccelerometerUpdates"]
+- ["Ps28CustomDebugStringConvertible", "willActivate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CMMotionManager"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSOperationQueue"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "WKInterfaceController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "abs"]
+- !private ["Ps23CustomStringConvertible", "acceleration"]
+- !private ["Ps23CustomStringConvertible", "accelerometerAvailable"]
+- !private ["Ps23CustomStringConvertible", "accelerometerUpdateInterval"]
+- !private ["Ps23CustomStringConvertible", "addObject"]
+- ["Ps23CustomStringConvertible", "awakeWithContext"]
+- ["Ps23CustomStringConvertible", "coordinateAverage"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "currentQueue"]
+- ["Ps23CustomStringConvertible", "didDeactivate"]
+- !private ["Ps23CustomStringConvertible", "greenColor"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "labelX"]
+- ["Ps23CustomStringConvertible", "labelY"]
+- ["Ps23CustomStringConvertible", "logo"]
+- ["Ps23CustomStringConvertible", "motionManager"]
+- !private ["Ps23CustomStringConvertible", "objectAtIndex"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "redColor"]
+- !private ["Ps23CustomStringConvertible", "reloadRootControllersWithNames"]
+- !private ["Ps23CustomStringConvertible", "removeAllObjects"]
+- !private ["Ps23CustomStringConvertible", "setImageNamed"]
+- !private ["Ps23CustomStringConvertible", "setText"]
+- !private ["Ps23CustomStringConvertible", "setTextColor"]
+- !private ["Ps23CustomStringConvertible", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps23CustomStringConvertible", "stopAccelerometerUpdates"]
+- ["Ps23CustomStringConvertible", "willActivate"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "IntegerLiteralType"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- ["Ps9Equatable", "CMMotionManager"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSOperationQueue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "WKInterfaceController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "abs"]
+- !private ["Ps9Equatable", "acceleration"]
+- !private ["Ps9Equatable", "accelerometerAvailable"]
+- !private ["Ps9Equatable", "accelerometerUpdateInterval"]
+- !private ["Ps9Equatable", "addObject"]
+- ["Ps9Equatable", "awakeWithContext"]
+- ["Ps9Equatable", "coordinateAverage"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "currentQueue"]
+- ["Ps9Equatable", "didDeactivate"]
+- !private ["Ps9Equatable", "greenColor"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "labelX"]
+- ["Ps9Equatable", "labelY"]
+- ["Ps9Equatable", "logo"]
+- ["Ps9Equatable", "motionManager"]
+- !private ["Ps9Equatable", "objectAtIndex"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "redColor"]
+- !private ["Ps9Equatable", "reloadRootControllersWithNames"]
+- !private ["Ps9Equatable", "removeAllObjects"]
+- !private ["Ps9Equatable", "setImageNamed"]
+- !private ["Ps9Equatable", "setText"]
+- !private ["Ps9Equatable", "setTextColor"]
+- !private ["Ps9Equatable", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps9Equatable", "stopAccelerometerUpdates"]
+- ["Ps9Equatable", "willActivate"]
+- ["Ps9Equatable", ""]
+- !private ["Sf", "IntegerLiteralType"]
+- !private ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps23FloatLiteralConvertible", "Stride"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "IntegerLiteralType"]
+- !private ["Ps17FloatingPointType", "Stride"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "Stride"]
+- ["Ps8Hashable", "CMMotionManager"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "Element"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSOperationQueue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "WKInterfaceController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "abs"]
+- !private ["Ps8Hashable", "acceleration"]
+- !private ["Ps8Hashable", "accelerometerAvailable"]
+- !private ["Ps8Hashable", "accelerometerUpdateInterval"]
+- !private ["Ps8Hashable", "addObject"]
+- ["Ps8Hashable", "awakeWithContext"]
+- ["Ps8Hashable", "coordinateAverage"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "currentQueue"]
+- ["Ps8Hashable", "didDeactivate"]
+- !private ["Ps8Hashable", "greenColor"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "labelX"]
+- ["Ps8Hashable", "labelY"]
+- ["Ps8Hashable", "logo"]
+- ["Ps8Hashable", "motionManager"]
+- !private ["Ps8Hashable", "objectAtIndex"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "redColor"]
+- !private ["Ps8Hashable", "reloadRootControllersWithNames"]
+- !private ["Ps8Hashable", "removeAllObjects"]
+- !private ["Ps8Hashable", "setImageNamed"]
+- !private ["Ps8Hashable", "setText"]
+- !private ["Ps8Hashable", "setTextColor"]
+- !private ["Ps8Hashable", "startAccelerometerUpdatesToQueue"]
+- !private ["Ps8Hashable", "stopAccelerometerUpdates"]
+- ["Ps8Hashable", "willActivate"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Vs5Int16", "IntegerLiteralType"]
+- !private ["Vs5Int32", "IntegerLiteralType"]
+- !private ["Vs5Int32", "Stride"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "IntegerLiteralType"]
+- !private ["Vs4Int8", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Stride"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["CSo7NSArray", "Element"]
+- !private ["CSo7NSArray", "addObject"]
+- !private ["CSo7NSArray", "count"]
+- !private ["CSo7NSArray", "objectAtIndex"]
+- !private ["CSo7NSArray", "removeAllObjects"]
+- !private ["PSo8NSCoding", "Element"]
+- !private ["PSo8NSCoding", "acceleration"]
+- !private ["PSo8NSCoding", "addObject"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "greenColor"]
+- !private ["PSo8NSCoding", "objectAtIndex"]
+- !private ["PSo8NSCoding", "redColor"]
+- !private ["PSo8NSCoding", "removeAllObjects"]
+- !private ["PSo9NSCopying", "Element"]
+- !private ["PSo9NSCopying", "acceleration"]
+- !private ["PSo9NSCopying", "addObject"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "greenColor"]
+- !private ["PSo9NSCopying", "objectAtIndex"]
+- !private ["PSo9NSCopying", "redColor"]
+- !private ["PSo9NSCopying", "removeAllObjects"]
+- !private ["PSo17NSFastEnumeration", "Element"]
+- !private ["PSo17NSFastEnumeration", "addObject"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "objectAtIndex"]
+- !private ["PSo17NSFastEnumeration", "removeAllObjects"]
+- !private ["CSo14NSMutableArray", "Element"]
+- !private ["CSo14NSMutableArray", "addObject"]
+- !private ["CSo14NSMutableArray", "count"]
+- !private ["CSo14NSMutableArray", "objectAtIndex"]
+- !private ["CSo14NSMutableArray", "removeAllObjects"]
+- !private ["PSo16NSMutableCopying", "Element"]
+- !private ["PSo16NSMutableCopying", "addObject"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "objectAtIndex"]
+- !private ["PSo16NSMutableCopying", "removeAllObjects"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CMAccelerometerData"]
+- !private ["CSo8NSObject", "CMAccelerometerHandler"]
+- ["CSo8NSObject", "CMMotionManager"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "Element"]
+- !private ["CSo8NSObject", "NSError"]
+- ["CSo8NSObject", "NSMutableArray"]
+- !private ["CSo8NSObject", "NSOperationQueue"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "WKInterfaceController"]
+- ["CSo8NSObject", "WKInterfaceImage"]
+- ["CSo8NSObject", "WKInterfaceLabel"]
+- !private ["CSo8NSObject", "abs"]
+- !private ["CSo8NSObject", "acceleration"]
+- !private ["CSo8NSObject", "accelerometerAvailable"]
+- !private ["CSo8NSObject", "accelerometerUpdateInterval"]
+- !private ["CSo8NSObject", "addObject"]
+- ["CSo8NSObject", "awakeWithContext"]
+- ["CSo8NSObject", "coordinateAverage"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "currentQueue"]
+- ["CSo8NSObject", "didDeactivate"]
+- !private ["CSo8NSObject", "greenColor"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "labelX"]
+- ["CSo8NSObject", "labelY"]
+- ["CSo8NSObject", "logo"]
+- ["CSo8NSObject", "motionManager"]
+- !private ["CSo8NSObject", "objectAtIndex"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "redColor"]
+- !private ["CSo8NSObject", "reloadRootControllersWithNames"]
+- !private ["CSo8NSObject", "removeAllObjects"]
+- !private ["CSo8NSObject", "setImageNamed"]
+- !private ["CSo8NSObject", "setText"]
+- !private ["CSo8NSObject", "setTextColor"]
+- !private ["CSo8NSObject", "startAccelerometerUpdatesToQueue"]
+- !private ["CSo8NSObject", "stopAccelerometerUpdates"]
+- ["CSo8NSObject", "willActivate"]
+- ["PSo16NSObjectProtocol", "CMMotionManager"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "Element"]
+- !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "WKInterfaceController"]
+- !private ["PSo16NSObjectProtocol", "abs"]
+- !private ["PSo16NSObjectProtocol", "acceleration"]
+- !private ["PSo16NSObjectProtocol", "accelerometerAvailable"]
+- !private ["PSo16NSObjectProtocol", "accelerometerUpdateInterval"]
+- !private ["PSo16NSObjectProtocol", "addObject"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- ["PSo16NSObjectProtocol", "coordinateAverage"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "currentQueue"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- !private ["PSo16NSObjectProtocol", "greenColor"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "labelX"]
+- ["PSo16NSObjectProtocol", "labelY"]
+- ["PSo16NSObjectProtocol", "logo"]
+- ["PSo16NSObjectProtocol", "motionManager"]
+- !private ["PSo16NSObjectProtocol", "objectAtIndex"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "redColor"]
+- !private ["PSo16NSObjectProtocol", "reloadRootControllersWithNames"]
+- !private ["PSo16NSObjectProtocol", "removeAllObjects"]
+- !private ["PSo16NSObjectProtocol", "setImageNamed"]
+- !private ["PSo16NSObjectProtocol", "setText"]
+- !private ["PSo16NSObjectProtocol", "setTextColor"]
+- !private ["PSo16NSObjectProtocol", "startAccelerometerUpdatesToQueue"]
+- !private ["PSo16NSObjectProtocol", "stopAccelerometerUpdates"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSOperationQueue", "currentQueue"]
+- !private ["PSo14NSSecureCoding", "Element"]
+- !private ["PSo14NSSecureCoding", "acceleration"]
+- !private ["PSo14NSSecureCoding", "addObject"]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "greenColor"]
+- !private ["PSo14NSSecureCoding", "objectAtIndex"]
+- !private ["PSo14NSSecureCoding", "redColor"]
+- !private ["PSo14NSSecureCoding", "removeAllObjects"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "Stride"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "addObject"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "objectAtIndex"]
+- !private ["Ps12SequenceType", "removeAllObjects"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "Stride"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Stride"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "init"]
+- !private ["CSo7UIColor", "greenColor"]
+- !private ["CSo7UIColor", "redColor"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["PSo17WKImageAnimatable", "setImageNamed"]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- !private ["CSo21WKInterfaceController", "CMAccelerometerData"]
+- !private ["CSo21WKInterfaceController", "CMAccelerometerHandler"]
+- ["CSo21WKInterfaceController", "CMMotionManager"]
+- !private ["CSo21WKInterfaceController", "Double"]
+- !private ["CSo21WKInterfaceController", "NSError"]
+- ["CSo21WKInterfaceController", "NSMutableArray"]
+- !private ["CSo21WKInterfaceController", "NSOperationQueue"]
+- !private ["CSo21WKInterfaceController", "UIColor"]
+- !private ["CSo21WKInterfaceController", "Void"]
+- !private ["CSo21WKInterfaceController", "WKInterfaceController"]
+- ["CSo21WKInterfaceController", "WKInterfaceImage"]
+- ["CSo21WKInterfaceController", "WKInterfaceLabel"]
+- !private ["CSo21WKInterfaceController", "abs"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "coordinateAverage"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "init"]
+- ["CSo21WKInterfaceController", "labelX"]
+- ["CSo21WKInterfaceController", "labelY"]
+- ["CSo21WKInterfaceController", "logo"]
+- ["CSo21WKInterfaceController", "motionManager"]
+- !private ["CSo21WKInterfaceController", "print"]
+- !private ["CSo21WKInterfaceController", "reloadRootControllersWithNames"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+- !private ["CSo16WKInterfaceImage", "setImageNamed"]
+- !private ["CSo16WKInterfaceLabel", "setText"]
+- !private ["CSo16WKInterfaceLabel", "setTextColor"]
+- !private ["CSo17WKInterfaceObject", "setImageNamed"]
+- !private ["CSo17WKInterfaceObject", "setText"]
+- !private ["CSo17WKInterfaceObject", "setTextColor"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "Stride"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "Stride"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "greenColor"]
+- !private ["Ps24_ColorLiteralConvertible", "redColor"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Stride"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Stride"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Stride"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addObject"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "objectAtIndex"]
+- !private ["Ps12_Reflectable", "removeAllObjects"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "Stride"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "C27EmergencyWatchApp_Extension32AccelerometerInterfaceController"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC14CMAcceleration"
+- !private "CSo19CMAccelerometerData"
+- !private "CSo9CMLogItem"
+- "CSo15CMMotionManager"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "CSo7UIColor"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "PSo17WKImageAnimatable"
+- "CSo21WKInterfaceController"
+- !private "CSo16WKInterfaceImage"
+- !private "CSo16WKInterfaceLabel"
+- !private "CSo17WKInterfaceObject"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+- !private "doubleValue"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
+- "/Users/Selene/PebbleEmergencyApp/EmergencyWatchApp Extension/EmergencyWatchApp Extension-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
+interface-hash: "10d3c26600323d16638b0936dee4a8dc"
